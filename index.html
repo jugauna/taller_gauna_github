@@ -9,8 +9,10 @@
     <link rel="shortcut icon" href="./Img/logosinfondo500x250.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Fonts -->
     <script src="https://use.fontawesome.com/e3930d76f3.js"></script>  
+    
 </head>
 <body>
     <header>
@@ -37,8 +39,8 @@
             <div class="contenedor">
                 <h1>Reparacion de Trailers</h1>
                 <img src="./Img/trailer.jpg" alt="foto-trailer">
-                <div class="contenedor_boton">
-                    <a href="./Pages/contacto.html"><button method="get" type="submit">Contactanos</button></a>
+                <div class="contenedor_boton" data-aos="flip-left">
+                    <a href="./Pages/contacto.html"><button data-aos="flip-left" method="get" type="submit">Contactanos</button></a>
                 </div>    
             </div>
         </section>        
@@ -57,5 +59,9 @@
             </nav>
         </div>            
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
